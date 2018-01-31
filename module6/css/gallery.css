@@ -1,0 +1,226 @@
+body {
+  background-image: url(../img/homework-3.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+  display: flex;
+	justify-content: center;
+}
+
+.content {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 20px;
+  background-color: white;
+  vertical-align: top;
+  margin: auto;
+  width: 850px;
+}
+
+
+header {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+h1 {
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  line-height: 150px;
+  text-align: center;
+  font-family: 'Dorsa', sans-serif;
+  font-size: 60px;
+  color: #263555;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.submenu {
+  display: none;
+}
+
+ol.submenu {
+  width: 46px;
+  z-index: 10;
+  padding: 4px 2px;
+  background: #f2f2f3;
+  border-radius: 2px;
+  position: absolute;
+  left: 13px;
+  top: 30px;
+}
+
+li.submenu a {
+  color: #6b7488;
+  font-size: 15px;
+}
+
+ol.submenu::before {
+ content: "";
+ top: -5px;
+ left: 20px;
+ position: absolute;
+ border-style: solid;
+ border-width: 0 4px 6px 4px;
+ border-color: transparent transparent #f2f2f3 transparent;
+}
+
+.menu-items:hover .submenu {
+  display: block;
+}
+
+img {
+  width: 200px;
+}
+
+.circle {
+  width: 100%;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+.menu-items {
+  width: 33%;
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+  list-style-type: none;
+}
+
+.menu-items a {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 25px;
+}
+
+.menu-items a:hover {
+  color: #263555;
+}
+
+.to-top {
+  margin-top: 60px;
+  margin-left: 830px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #38afe5;
+  bottom: 70px;
+  right: 570px;
+  display: block;
+}
+
+.info {
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #30455b;
+	color: #ffffff;
+}
+
+.info a {
+	text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans Condensed";
+}
+
+.sprite {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.sprite-fb {
+  width: 40px;
+  height: 40px;
+  background-position: -5px -5px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  flex-basis: 50px;
+}
+
+.sprite-g {
+  width: 40px;
+  height: 40px;
+  background-position: -55px -5px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  flex-basis: 50px;
+}
+
+.sprite-in {
+  width: 40px;
+  height: 40px;
+  background-position: -5px -55px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  flex-basis: 50px;
+}
+
+.sprite-tw {
+  width: 40px;
+  height: 40px;
+  background-position: -55px -55px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  flex-basis: 50px;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+}
+
+.info p {
+	margin: 0;
+	font-size: 12px;
+	color: #ffffff;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+footer p {
+	color: #ffffff;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+h2 {
+ 	font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;	
+}
+
+img {
+ 	height: 130px;
+ 	width: 270px;
+}
+
+.flex-container {
+  display: flex;
+ 	flex-direction: row;
+  justify-content:  space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 400px;
+}
+
+a img {
+  height: 10px;
+	width: 15px;
+	padding-left: 7px;
+	padding-top: 8px;
+}
